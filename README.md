@@ -2,18 +2,18 @@
 
 A collection of modules for processing, manipulating, and rendering text and fonts in Node and the browser. Please open an issue or submit a PR for suggestions/improvements.
 
-### sections
+### contents
 
 - [Font Processing](#font-processing)
 - [Bitmap Text](#bitmap-text)
 - [Vector Text](#vector-text)
 
-# Font Processing
+# <a id="font-processing" href="#font-processing">#</a> Font Processing
 
 - [opentype.js](https://www.npmjs.com/package/opentype.js)
 - [freetype2](https://www.npmjs.com/package/freetype2)
 
-# Bitmap Text
+# <a id="bitmap-text" href="#bitmap-text">#</a> Bitmap Text
 
 ### generation tools
 
@@ -58,7 +58,7 @@ Writes to a specific format.
 
 - [bmfont-lato](https://www.npmjs.com/package/bmfont-lato) Lato packed as a BMFont for testing
 
-# Vector Text
+# <a id="vector-text" href="#vector-text">#</a> Vector Text
 
 - [vectorize-text](https://www.npmjs.com/package/vectorize-text) render a string to a vectorized cell complex
 - [earcut](https://www.npmjs.com/package/earcut) small and fast triangulation module
