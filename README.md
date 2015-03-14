@@ -55,6 +55,7 @@ Writes to a specific format.
 - [layout-bmfont-text](https://www.npmjs.com/package/layout-bmfont-text) word-wraps and lays out text glyphs
 - [three-bmfont-text](https://www.npmjs.com/package/three-bmfont-text) renders BMFont files in ThreeJS
 - [gl-sprite-text](https://www.npmjs.com/package/gl-sprite-text) renders BMFont files in stackgl
+- [font-atlas](https://github.com/hughsk/font-atlas) populate a Canvas with bitmap font glyphs
 
 ### testing
 
