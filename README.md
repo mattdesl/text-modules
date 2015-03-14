@@ -20,18 +20,23 @@ A collection of modules for processing, manipulating, and rendering text and fon
 
 # Bitmap Text
 
-### testing
+### generation tools
 
-- [bmfont-lato](https://www.npmjs.com/package/bmfont-lato) Lato packed as a BMFont for testing
+- [BMFont](http://www.angelcode.com/products/bmfont/) (Windows only)
+- [Hiero](https://github.com/libgdx/libgdx/wiki/Hiero)
+- [GlyphDesigner](https://71squared.com/glyphdesigner)
+- [Littera](http://kvazars.com/littera/)
+- [gdx-fontpack](https://github.com/mattdesl/gdx-fontpack)
+- [bmGlyph](http://www.bmglyph.com/)
 
-### CLI tools
+### command-line tools
 
 - [image-sdf](https://www.npmjs.com/package/image-sdf) get an image's Signed Distance Field
-- [parse-bmfont](https://www.npmjs.com/package/parse-bmfont) parse any BMFont file to JSON
+- [convert-bmfont](https://www.npmjs.com/package/convert-bmfont) convert BMFont from one format to another
 
 ### parsing
 
-Parses BMFont file formats to a standardized JSON:
+Parses BMFont file formats to a [standardized JSON](https://github.com/Jam3/load-bmfont/blob/master/json-spec.md).
 
 - [parse-bmfont-xml](https://www.npmjs.com/package/parse-bmfont-xml)
 - [parse-bmfont-ascii](https://www.npmjs.com/package/parse-bmfont-ascii)
@@ -45,13 +50,15 @@ Writes to a specific format.
 
 ### loading
 
-Handles async loading with fs/XHR in Node/browser.
-
-- [load-bmfont](https://www.npmjs.com/package/load-bmfont) (all formats)
+- [load-bmfont](https://www.npmjs.com/package/load-bmfont) loads various BMFont file formats in Node/Browser
 
 ### rendering
 
-- [word-wrapper](https://www.npmjs.com/package/word-wrapper) (left-to-right text)
-- [layout-bmfont-text](https://www.npmjs.com/package/layout-bmfont-text)
-- [three-bmfont-text](https://www.npmjs.com/package/three-bmfont-text) (ThreeJS)
-- [gl-sprite-text](https://www.npmjs.com/package/three-bmfont-text) (stackgl)
+- [word-wrapper](https://www.npmjs.com/package/word-wrapper) wraps words based on arbitrary 2D glyphs
+- [layout-bmfont-text](https://www.npmjs.com/package/layout-bmfont-text) word-wraps and lays out text glyphs
+- [three-bmfont-text](https://www.npmjs.com/package/three-bmfont-text) renders BMFont files in ThreeJS
+- [gl-sprite-text](https://www.npmjs.com/package/gl-sprite-text) renders BMFont files in stackgl
+
+### testing
+
+- [bmfont-lato](https://www.npmjs.com/package/bmfont-lato) Lato packed as a BMFont for testing
