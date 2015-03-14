@@ -1,0 +1,49 @@
+{
+  "name": "text-modules",
+  "version": "1.0.0",
+  "description": "a list of text/font modules",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "text",
+    "font",
+    "modules",
+    "list",
+    "ecosystem",
+    "ecosystem:text",
+    "language",
+    "fonts",
+    "glyph",
+    "glyphs",
+    "ttf",
+    "webgl",
+    "canvas",
+    "otf",
+    "woff",
+    "font-face",
+    "bitmap",
+    "bitmaps",
+    "bmfont",
+    "angel",
+    "code",
+    "angelcode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/text-modules.git"
+  },
+  "homepage": "https://github.com/mattdesl/text-modules",
+  "bugs": {
+    "url": "https://github.com/mattdesl/text-modules/issues"
+  }
+}
