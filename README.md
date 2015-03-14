@@ -36,12 +36,14 @@ Parses BMFont file formats to a [standardized JSON](https://github.com/Jam3/load
 - [parse-bmfont-xml](https://www.npmjs.com/package/parse-bmfont-xml)
 - [parse-bmfont-ascii](https://www.npmjs.com/package/parse-bmfont-ascii)
 - [parse-bmfont-binary](https://www.npmjs.com/package/parse-bmfont-binary)
+- [unpack-bmfonts](https://www.npmjs.com/package/unpack-bmfonts) unpacks a binary of multiple BMFonts 
 
 ### writing
 
 Writes to a specific format.
 
 - [write-bmfont-binary](https://www.npmjs.com/package/write-bmfont-binary)
+- [pack-bmfonts](https://www.npmjs.com/package/pack-bmfonts) packs multiple BMFonts into a single binary file
 
 ### loading
 
