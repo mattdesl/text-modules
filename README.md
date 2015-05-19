@@ -4,9 +4,16 @@ A collection of modules for processing, manipulating, and rendering text and fon
 
 ### contents
 
+- [Articles](#articles)
 - [Font Processing](#font-processing)
 - [Bitmap Text](#bitmap-text)
 - [Vector Text](#vector-text)
+
+# <a id="articles" href="#articles">#</a> Articles
+
+- [Material Design on the GPU](http://mattdesl.svbtle.com/material-design-on-the-gpu)
+- [Drawing Text with Signed Distance Fields in MapboxGL](https://www.mapbox.com/blog/text-signed-distance-fields/)
+- [Improved Alpha-Test Magnification for Vector Textures](https://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf)
 
 # <a id="font-processing" href="#font-processing">#</a> Font Processing
 
@@ -70,11 +77,28 @@ Writes to a specific format.
 
 # <a id="vector-text" href="#vector-text">#</a> Vector Text
 
+### generation
+
 - [vectorize-text](https://www.npmjs.com/package/vectorize-text) render a string to a vectorized cell complex
+
+### triangulation
+
 - [earcut](https://www.npmjs.com/package/earcut) small and fast triangulation module
 - [triangulate-polyline](https://www.npmjs.com/package/triangulate-polyline) triangulate using poly2tri
 - [triangulate-contours](https://www.npmjs.com/package/triangulate-polyline) triangulate using Tess2
-- [adaptive-bezier-curve](https://www.npmjs.com/package/adaptive-bezier-curve) adaptive cubic/quadratic curves
+
+### curves
+
+- [cubic-hermite-spline](https://www.npmjs.com/package/cubic-hermite-spline)
+- [b-spline](https://www.npmjs.com/package/b-spline)
+- [bezier-curve](https://www.npmjs.com/package/bezier-curve)
+- [adaptive-bezier-curve](https://www.npmjs.com/package/adaptive-bezier-curve)
+- [adaptive-quadratic-curve](https://www.npmjs.com/package/adaptive-quadratic-curve)
+- [cat-rom-spline](https://www.npmjs.com/package/cat-rom-spline)
+- [bezier-easing](https://www.npmjs.com/package/bezier-easing)
+
+### paths
+
 - [simplify-path](https://www.npmjs.com/package/simplify-path) - simplify using radial distance and Douglas-Peucker 
 - [chaikin-smooth](https://www.npmjs.com/package/chaikin-smooth) - Chaikin's smoothing algorithm for a polyline
 - [robust-orientation](https://www.npmjs.com/package/robust-orientation) and [is-clockwise](https://www.npmjs.com/package/is-clockwise) for polygon orientation
