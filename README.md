@@ -12,6 +12,7 @@ A collection of modules for processing, manipulating, and rendering text and fon
 
 - [opentype.js](https://www.npmjs.com/package/opentype.js)
 - [freetype2](https://www.npmjs.com/package/freetype2)
+- [node-fontnik](https://github.com/mapbox/node-fontnik)
 
 # <a id="bitmap-text" href="#bitmap-text">#</a> Bitmap Text
 
@@ -60,6 +61,12 @@ Writes to a specific format.
 ### testing
 
 - [bmfont-lato](https://www.npmjs.com/package/bmfont-lato) Lato packed as a BMFont for testing
+
+### misc
+
+- [sdf-bitmap-glyphs](https://www.npmjs.com/package/sdf-bitmap-glyphs)
+- [ndarray-bin-pack](https://www.npmjs.com/package/ndarray-bin-pack)
+- [distance-transform](https://www.npmjs.com/package/distance-transform)
 
 # <a id="vector-text" href="#vector-text">#</a> Vector Text
 
