@@ -1,6 +1,6 @@
 {
   "name": "text-modules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a list of text/font modules",
   "main": "index.js",
   "license": "MIT",
