@@ -83,6 +83,7 @@ Writes to a specific format.
 
 ### triangulation
 
+- [cdt2d](https://www.npmjs.com/package/cdt2d) numerically robust delaunay triangulation
 - [earcut](https://www.npmjs.com/package/earcut) small and fast triangulation module
 - [triangulate-polyline](https://www.npmjs.com/package/triangulate-polyline) triangulate using poly2tri
 - [triangulate-contours](https://www.npmjs.com/package/triangulate-polyline) triangulate using Tess2
