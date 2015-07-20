@@ -14,6 +14,7 @@ A collection of modules for processing, manipulating, and rendering text and fon
 - [Material Design on the GPU](http://mattdesl.svbtle.com/material-design-on-the-gpu)
 - [Drawing Text with Signed Distance Fields in MapboxGL](https://www.mapbox.com/blog/text-signed-distance-fields/)
 - [Improved Alpha-Test Magnification for Vector Textures](https://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf)
+- [Multi-Channel Distance Field Font Rendering](https://lambdacube3d.wordpress.com/2014/11/12/playing-around-with-font-rendering/)
 
 # <a id="font-processing" href="#font-processing">#</a> Font Processing
 
